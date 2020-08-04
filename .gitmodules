@@ -31,3 +31,6 @@
 [submodule "OAuth"]
 	path = OAuth
 	url = https://github.com/jambtc/OAuth.git
+[submodule "webRequest"]
+	path = webRequest
+	url = https://github.com/jambtc/webRequest.git
