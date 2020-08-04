@@ -7,3 +7,6 @@
 [submodule "NaPacks"]
 	path = NaPacks
 	url = https://github.com/jambtc/NaPacks.git
+[submodule "PayPal"]
+	path = PayPal
+	url = https://github.com/jambtc/PayPal.git
