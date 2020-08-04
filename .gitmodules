@@ -25,3 +25,6 @@
 [submodule "exchanges"]
 	path = exchanges
 	url = https://github.com/jambtc/exchanges.git
+[submodule "gateways"]
+	path = gateways
+	url = https://github.com/jambtc/gateways.git
