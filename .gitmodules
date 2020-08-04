@@ -16,3 +16,6 @@
 [submodule "CodiceFiscale"]
 	path = CodiceFiscale
 	url = https://github.com/nigrosimone/CodiceFiscale.git
+[submodule "crypt"]
+	path = crypt
+	url = https://github.com/jambtc/crypt.git
