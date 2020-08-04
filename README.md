@@ -12,26 +12,35 @@ In order to keep up with the changes made for those third-party libraries, you c
 
 
 #### Add a Git Submodule
+do this only for the first time
 ```
 git submodule add <remote_url>
 
 git commit -m "Added the ... submodule to the project."
 
 git push
-```
 
-#### Pull latest of all git submodules  
-only for the first time
-```
 git submodule update --init --remote
 ```
-then
+
+#### PULL latest of all git submodules  
+**be carefull. This command clear local changes**
 ```
 git submodule update --recursive --remote
 ```
 
 
-#### Push/Update a Git Submodule
+#### PUSH a Git Submodule
 ```
 git submodule update --remote --merge
 ```
+
+
+#### Remove Submodule
+- Delete the section referring to the submodule from the .gitmodules file
+- Stage the changes via git add .gitmodules
+- Delete the relevant section of the submodule from .git/config.
+- Run git rm --cached path_to_submodule (no trailing slash)
+- Run rm -rf .git/modules/path_to_submodule
+- Commit the changes with `git commit -m "Removed ... submodule"`
+- Delete the now untracked submodule files rm -rf path_to_submodule

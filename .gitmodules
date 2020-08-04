@@ -13,6 +13,3 @@
 [submodule "Utils"]
 	path = Utils
 	url = https://github.com/jambtc/Utils.git
-[submodule "codice-fiscale"]
-	path = codice-fiscale
-	url = https://github.com/jambtc/codice-fiscale.git
