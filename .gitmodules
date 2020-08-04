@@ -4,3 +4,6 @@
 [submodule "BTCPay"]
 	path = BTCPay
 	url = https://github.com/jambtc/BTCPay.git
+[submodule "NaPacks"]
+	path = NaPacks
+	url = https://github.com/jambtc/NaPacks.git
