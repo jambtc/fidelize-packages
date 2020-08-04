@@ -10,3 +10,6 @@
 [submodule "PayPal"]
 	path = PayPal
 	url = https://github.com/jambtc/PayPal.git
+[submodule "Utils"]
+	path = Utils
+	url = https://github.com/jambtc/Utils.git
