@@ -2,6 +2,20 @@
 List of free and personal software packages
 
 
+## How to “git clone” including submodules?
+`git clone --recurse-submodules -j8 https://github.com/jambtc/packages.git`
+Editor's note: -j8 is an optional performance optimization that became available in version 2.8, and fetches up to 8 submodules at a time in parallel
+
+## TODO after 1st clone
+copy these files and edit them with appropriate content
+
+- `cp crypt/encrypt.json.example crypt/encrypt.json`
+- `cp http-proxy.php .example http-proxy.php`
+- `cp gateways/btcpayserver-php-v1/Btcpay/Client/Adapter/proxy.php.example gateways/btcpayserver-php-v1/Btcpay/Client/Adapter/proxy.php`
+- `cp gateways/bitpay/Bitpay/Client/Adapter/proxy.php.example gateways/bitpay/Bitpay/Client/Adapter/proxy.php`
+- `cp gateways/coingate-php/lib/http-proxy.php.example gateways/coingate-php/lib/http-proxy.php`
+
+
 
 
 
@@ -50,3 +64,18 @@ git submodule update --remote --merge
 	- Linux: `rm -rf <path_to_submodule>`
 	- Windows: `rmdir /s <path_to_submodule>`
 - Push
+
+
+#### How to add new file to .gitignore
+removes everything from the index
+`git rm -r --cached .`
+
+then
+```
+git add .
+git commit -m ".gitignore is now working"
+```
+
+## How to “git clone” including submodules?
+`git clone --recurse-submodules -j8 <remote_url>`
+Editor's note: -j8 is an optional performance optimization that became available in version 2.8, and fetches up to 8 submodules at a time in parallel
