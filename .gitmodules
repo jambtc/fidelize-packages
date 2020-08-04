@@ -22,3 +22,6 @@
 [submodule "ethereum"]
 	path = ethereum
 	url = https://github.com/jambtc/ethereum.git
+[submodule "exchanges"]
+	path = exchanges
+	url = https://github.com/jambtc/exchanges.git
