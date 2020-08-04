@@ -1,0 +1,3 @@
+[submodule "bitstamp-real-time-price"]
+	path = bitstamp-real-time-price
+	url = https://github.com/jambtc/bitstamp-real-time-price.git
