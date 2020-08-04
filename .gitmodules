@@ -34,3 +34,6 @@
 [submodule "webRequest"]
 	path = webRequest
 	url = https://github.com/jambtc/webRequest.git
+[submodule "qr-scanner"]
+	path = qr-scanner
+	url = https://github.com/jambtc/qr-scanner.git
