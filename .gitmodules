@@ -19,3 +19,6 @@
 [submodule "crypt"]
 	path = crypt
 	url = https://github.com/jambtc/crypt.git
+[submodule "ethereum"]
+	path = ethereum
+	url = https://github.com/jambtc/ethereum.git
