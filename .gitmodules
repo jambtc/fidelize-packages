@@ -37,3 +37,6 @@
 [submodule "qr-scanner"]
 	path = qr-scanner
 	url = https://github.com/jambtc/qr-scanner.git
+[submodule "web-push-php"]
+	path = web-push-php
+	url = https://github.com/jambtc/web-push-php.git
