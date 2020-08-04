@@ -13,3 +13,6 @@
 [submodule "Utils"]
 	path = Utils
 	url = https://github.com/jambtc/Utils.git
+[submodule "CodiceFiscale"]
+	path = CodiceFiscale
+	url = https://github.com/nigrosimone/CodiceFiscale.git
