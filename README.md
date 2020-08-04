@@ -14,6 +14,7 @@ copy these files and edit them with appropriate content
 - `cp gateways/btcpayserver-php-v1/Btcpay/Client/Adapter/proxy.php.example gateways/btcpayserver-php-v1/Btcpay/Client/Adapter/proxy.php`
 - `cp gateways/bitpay/Bitpay/Client/Adapter/proxy.php.example gateways/bitpay/Bitpay/Client/Adapter/proxy.php`
 - `cp gateways/coingate-php/lib/http-proxy.php.example gateways/coingate-php/lib/http-proxy.php`
+- `cp PayPal\PayPal-PHP-SDK\paypal\rest-api-sdk-php\lib\PayPal\Core\http-proxy.php.example PayPal\PayPal-PHP-SDK\paypal\rest-api-sdk-php\lib\PayPal\Core\http-proxy.php`
 
 
 
