@@ -1,10 +1,13 @@
 # Packages
-List of free and personal software packages
+Software packages for blockchain applications
 
 
 ## How to “git clone” including submodules?
 `git clone --recurse-submodules -j8 https://github.com/jambtc/packages.git`
+
 Editor's note: -j8 is an optional performance optimization that became available in version 2.8, and fetches up to 8 submodules at a time in parallel
+
+
 
 ## TODO after 1st clone
 copy these files and edit them with appropriate content
@@ -54,7 +57,7 @@ git submodule update --remote --merge
 #### How to remove Submodule
 - Delete the section referring to the submodule from the .gitmodules file
 - Stage the changes via `git add .gitmodules`
-- Delete the relevant section of the submodule from .git/config.
+- Delete the relevant section of the submodule from .git/config
 - Run `git rm --cached <path_to_submodule>` (no trailing slash)
 - Run
 	- Linux: `rm -rf .git/modules/<path_to_submodule>`
@@ -76,7 +79,3 @@ then
 git add .
 git commit -m ".gitignore is now working"
 ```
-
-## How to “git clone” including submodules?
-`git clone --recurse-submodules -j8 <remote_url>`
-Editor's note: -j8 is an optional performance optimization that became available in version 2.8, and fetches up to 8 submodules at a time in parallel
