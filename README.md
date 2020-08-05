@@ -67,7 +67,7 @@ git submodule update --remote --merge
 - Delete the now untracked submodule files
 	- Linux: `rm -rf <path_to_submodule>`
 	- Windows: `rmdir /s <path_to_submodule>`
-- Push
+- finally run `git push`
 
 
 #### How to add new file to .gitignore
