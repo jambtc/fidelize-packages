@@ -13,12 +13,9 @@ Editor's note: -j8 is an optional performance optimization that became available
 copy these files and edit them with appropriate content
 
 
-### This file is primary
+### These files are mandatory
 
 - `cp crypt/encrypt.json.example crypt/encrypt.json`
-
-
-### Secondary files
 
 - `cp http-proxy.php.example http-proxy.php`
 - `cp gateways/btcpayserver-php-v1/Btcpay/Client/Adapter/proxy.php.example gateways/btcpayserver-php-v1/Btcpay/Client/Adapter/proxy.php`
